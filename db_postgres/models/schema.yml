@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: recommmender_system_raw
+    description: "Machine learning raw tables"
+    database: mlops
+    schema: public  
+    tables:
+      - name: score
+      - name: movie
+      - name: user

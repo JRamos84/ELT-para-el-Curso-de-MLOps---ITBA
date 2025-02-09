@@ -1,0 +1,12 @@
+db_postgres:
+  outputs:
+    dev:
+      dbname: mlops
+      host: "localhost"
+      pass: airbyte
+      port: 5432
+      schema: target
+      threads: 1
+      type: postgres
+      user: joseph0001@gmail.com
+  target: dev
